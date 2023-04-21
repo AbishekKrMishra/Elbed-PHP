@@ -1,0 +1,158 @@
+@keyframes titleup {
+  from {margin-top: 5px;}
+  to {margin-top: 25px;}
+}
+
+@keyframes feedboxslide {
+  from {width: 370px;}
+  to {width: 450px;}
+}
+
+@keyframes homeslide {
+  from {margin-right: 50px;}
+  to {margin-right: 15px;}
+}
+
+@keyframes submitslide {
+  from {width: 10px;}
+  to {width: 130px;}
+}
+
+
+body{
+  background-color: #F39C12;
+}
+
+h1, h2, h3, h4, h5, p{
+  color: white;
+}
+
+.navbar{
+  background-image: url("feedback.jpg");
+  height: 160px;
+}
+
+/* .homebtn{
+  color: black;
+  float: right;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  height: 25px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px solid black;
+  outline: none;
+  animation-name: homeslide;
+  animation-duration: 2s;
+}
+
+.homebtn:hover{
+  background-color: lightgreen;
+  border: 2px solid black;
+} */
+
+.layer{
+  height: 160px;
+  width: 1264px;
+  /* background-color: black; */
+  margin-top: -160px;
+  opacity: 60%;
+  position: absolute;
+}
+
+.title{
+  animation-name: titleup;
+  animation-duration: 1.5s;
+  color: black;
+  font-weight: bolder;
+  font-size: 100px;
+  margin-left: 430px;
+  margin-top: 25px;
+}
+
+.tagline{
+  margin-top: -80px;
+  color: black;
+  margin-left: 430px;
+  font-size: 26px;
+}
+
+.feedbox{
+  width: 450px;
+  height: 350px;
+  margin-top: 170px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-left: 409px;
+  padding-top: 10px;
+  animation-name: feedboxslide;
+  animation-duration: 2s;
+  background-color: #5D628A;
+}
+
+.feed{
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+  font-family: serif;
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+input{
+  height: 25px;
+  border-top: 0px solid black;
+  border-right: 0px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  border-left: 0px solid black;
+  text-align: center;
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+.inp1{
+  width: 45%;
+  margin-left: 115px;
+}
+.inp2{
+  width: 58%;
+  margin-left: 90px;
+}
+.inp3{
+  width: 73%;
+  margin-left: 60px;
+}
+
+::placeholder{
+  color: black;
+  opacity: 70%;
+}
+
+button{
+  width: 130px;
+  height: 35px;
+  margin-left: 162px;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 20px;
+  animation-name: submitslide;
+  animation-duration: 1s;
+}
+
+button:hover{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}

@@ -1,0 +1,112 @@
+body{
+  text-align: center;
+  background-color: #F4AF2C;
+}
+
+.container {
+  background-color: white;
+  height: 540px;
+  margin-left: 28%;
+  width: 45%;
+}
+
+.con2{
+  background-color: #3376FF;
+  height: 520px;
+  width: 23%;
+  padding-top:18px;
+}
+h1{
+  color: white;
+}
+
+.log{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding-left: -10px;
+  margin-left: 15px;
+  border-radius: 100px;
+}
+
+.logo{
+ width: 180px;
+ height: auto;
+ margin-left: -39px;
+ margin-top: -40px;
+}
+
+.details{
+  margin-top: -500px;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.email{
+
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.add,.vid{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.smtbtn{
+  margin-left: 444px;
+  width: 115px;
+  color: white;
+  height: 30px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3376FF;
+}
+
+.pay{
+  margin-left: 444px;
+  width: 185px;
+  margin-top: 5px;
+  color: white;
+  height: 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 29px;
+  padding-right: 29px;
+  margin-top: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3376FF;
+  text-decoration: none;
+}
+
+input{
+  text-align: right;
+  font-family: "Papyrus";
+  width: 350px;
+  margin-left: 200px;
+  border: 0px;
+}
+
+.nav1{
+  font-family: "Brush Script MT", cursive;
+  text-decoration: none;
+  margin-left: 1180px;
+	margin-top: 45px;
+	margin-bottom: -20px;
+  color: brown;
+  width: 170px;
+  height: 40px;
+  padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+  font-size: 18px;
+	border: 1px solid black;
+  border-radius: 30px;
+}

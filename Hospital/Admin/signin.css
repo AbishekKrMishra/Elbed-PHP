@@ -1,0 +1,22 @@
+body{
+  background-color:grey;
+}
+
+.container{
+  color:white;
+  background-color:#5D628A;
+  margin-left: 500px;
+  margin-top: 170px;
+  width: 300px;
+  border: 1px solid black;
+  height: 200px;
+  text-align: center;
+}
+
+.smtbtn{
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  margin-left: 145px;
+}

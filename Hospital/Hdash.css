@@ -1,0 +1,251 @@
+body{
+  background-image: url('dback.png');
+  background-size: 100%;
+}
+
+.head{
+  width: 180px;
+}
+
+.logo{
+ width: 200px;
+ height: auto;
+ margin-left: -10px;
+ margin-top: -30px;
+}
+
+.nav{
+  margin-left: 17%;
+  margin-top: -120px;
+}
+
+.nav1,.nav2,.nav3{
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 40px;
+  color: brown;
+  width: 130px;
+  height: 50px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.nav1:hover,.nav2:hover,.nav3:hover{
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+.hname{
+  text-align: right;
+  font-family: "Brush Script MT", cursive;
+  font-size: 16px;
+  color: brown;
+  margin-top: -2%;
+  margin-right: 4%;
+}
+
+p{
+  text-align: right;
+  margin-top: -5.7%;
+}
+
+.log{
+  width: 180px;
+  margin-top: -2%;
+}
+
+
+.entries, .details{
+  background-color: white;
+  width: 990px;
+  margin-left: 18%;
+  border-radius: 50px;
+  opacity: .8;
+}
+
+.entries{
+  margin-top: 7%;
+  padding-top: 25px;
+  height: 160px;
+}
+
+.ent-title{
+  color: #FEC049;
+  font-weight: bold;
+  font-size: 55px;
+  margin-left: 30px;
+  margin-top: 70px;
+  margin-bottom: -20px;
+}
+
+.bedsdata{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  padding: 20px;
+  margin-top: -10%;
+}
+
+.enterbeds{
+  color: grey;
+  font-weight: bold;
+  font-size: 33px;
+  margin-top: 10px;
+}
+
+.bedsinput{
+  width: 150px;
+  margin-left: -8%;
+  margin-top: -10px;
+  margin-bottom: -100px;
+  font-size: 17px;
+  text-align: center;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 30px;
+  outline: none;
+}
+.bedsinput:hover{
+  box-shadow: 0 2px 2px black;
+}
+
+.enterprice{
+  margin-left: 150px;
+  color: grey;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.submitbeds, .submitdelete, .submitprice{
+  background-color: #FEC049;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.submitbeds:hover,.submitprice:hover,.submitdelete:hover{
+  cursor: pointer;
+}
+
+.priceinput{
+  width: 150px;
+  /* margin-left: 30%; */
+  margin-top: -200px;
+  font-size: 17px;
+  text-align: center;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 30px;
+  outline: none;
+}
+.priceinput:hover{
+  box-shadow: 0 2px 2px black;
+}
+
+.deletebeds{
+  width: 150px;
+  /* margin-left: 65%; */
+  margin-top: -70px;
+  font-size: 17px;
+  text-align: center;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 30px;
+  outline: none;
+}
+.deletelbl{
+  color: grey;
+  margin-left: 90px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.firstlbl{
+  padding-left: 29.5%;
+}
+.det-title{
+  color: #FEC049;
+  font-weight: bold;
+  font-size: 55px;
+  margin-left: 30px;
+  padding-top: 45px;
+}
+
+.details{
+  margin-top: 25px;
+  padding-top: 55px;
+  height: 120px;
+}
+
+.data{
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
+  margin-top: -7%;
+}
+
+.availablelbl,.occupiedlbl,.pricelbl{
+  color: grey;
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.pricelbl{
+  margin-left: 100px;
+}
+
+.availableinput,.occupied,.availableprice{
+  width: 150px;
+  margin-left: 95px;
+  margin-top: -10px;
+  font-size: 17px;
+  text-align: center;
+  height: 30px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid grey;
+  border-radius: 30px;
+  outline: none;
+}
+.secondlbl{
+  padding-left: 19%;
+  margin-top: -4%;
+}
+
+.deletebeds:hover{
+  box-shadow: 0 2px 2px black;
+}
+
+input:disabled{
+  background-color: inherit;
+}
+
+.logout{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 22px;
+  margin-top: 10%;
+  color: white;
+  width: 180px;
+  text-decoration: none;
+}
+.logout:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  transition: all .5s;
+  }

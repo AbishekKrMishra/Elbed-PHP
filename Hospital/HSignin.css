@@ -1,0 +1,111 @@
+
+body{
+  background-image: url('back.png');
+  background-size: 100%;
+}
+
+.logo{
+ width: 270px;
+ height: auto;
+ margin-left: -30px;
+ margin-top: -30px;
+}
+
+.main{
+    display: flex;
+
+}
+.login-box{
+background: rgba(214, 208, 208, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px #4E83FF;
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(6.5px);
+border: 1px solid rgba(214, 208, 208, 0.3);
+height: 320px;
+width: 400px;
+margin-left: 830px;
+margin-top: -100px;
+}
+.text-login p{
+    color: #077067;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.text-login span{
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: #077067;
+}
+.text-login{
+    text-align: center;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.login-form{
+    margin-top: 40px;
+}
+.form-control{
+    margin-top: 20px;
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+    height: 30px;
+    border: #00000033 1px solid;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #a5a5a524;
+}
+.form-control::placeholder{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(196, 196, 196);
+}
+.form-control:focus{
+    outline: none;
+}
+
+.form-control:hover{
+  width: 320px;
+  transition: ease-in-out, width .45s ease-in-out;
+  border: black 1px solid;
+}
+
+.form-enter{
+    margin-top: 35px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 10px;
+    background:#077067;
+    color: white;
+    font-family: 'Georgia', serif;
+    border: transparent 1px solid;
+    cursor: pointer;
+}
+
+.form-signup{
+  margin-top: 5px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 13px;
+  height: 25px;
+  border-radius: 20px;
+  background:#077067;
+  color: white;
+  font-family: 'Georgia', serif;
+  border: transparent 1px solid;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,137 @@
+body{
+  background-image: url('vback.png');
+  background-size: 100%;
+}
+
+.head{
+  width: 180px;
+}
+
+.logo{
+ width: 200px;
+ height: auto;
+ margin-left: -10px;
+ margin-top: -30px;
+}
+
+.nav{
+  margin-left: 17%;
+  margin-top: -120px;
+}
+
+.nav1,.nav2,.nav3{
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 40px;
+  color: brown;
+  width: 130px;
+  height: 50px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.nav1:hover,.nav2:hover,.nav3:hover{
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+.hname{
+  text-align: right;
+  font-family: "Brush Script MT", cursive;
+  font-size: 16px;
+  color: brown;
+  margin-top: -2%;
+  margin-right: 4%;
+}
+
+p{
+  text-align: right;
+  margin-top: -5.7%;
+}
+
+
+
+.title{
+  background-color: #F4AF2C;
+  width: 1090px;
+  margin-top: 4%;
+  height: 43px;
+  margin-left: 181px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.title-t{
+  color: white;
+  font-family: cursive;
+}
+
+
+.container{
+  background-color: white;
+  margin-top: 10px;
+  width: 1030px;
+  height: 38px;
+  padding-left: 20px;
+  padding-top: 23px;
+  padding-bottom: 15px;
+  margin-left: 15.5%;
+  border-radius: 15px;
+}
+
+.namefield{
+  border: 0px;
+  height: 25px;
+  font-size: 18px;
+  outline: none;
+}
+.availfield{
+  border: 0px;
+  height: 25px;
+  font-size: 18px;
+  outline: none;
+}
+.pricefield{
+  border: 0px;
+  height: 25px;
+  font-size: 18px;
+  outline: none;
+}
+
+.submitbutton{
+  border-radius: 10px;
+  height: 27px;
+  margin-left: 50px;
+}
+
+.submitbutton:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
+/* .log{
+  width: 180px;
+  margin-top: 25%;
+  position: absolute;
+}
+.logout{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 22px;
+  margin-top: 10%;
+  color: white;
+  width: 180px;
+  text-decoration: none;
+}
+.logout:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  transition: all .5s;
+  } */

@@ -1,0 +1,117 @@
+body{
+  background-image: url('back.png');
+  background-size: 100%;
+}
+
+.logo{
+ width: 270px;
+ height: auto;
+ margin-left: -30px;
+ margin-top: -30px;
+}
+
+.q1{
+  margin-top: -100px;
+}
+
+.q1,.q2,.q3{
+  text-align: right;
+  font-size: 70px;
+  color: white;
+  margin-right:485px;
+}
+
+.hospital{
+  color: white;
+  font-style: strong;
+  font-size: 55px;
+  text-decoration: none;
+  background: #D8B413;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-radius: 250px;
+}
+.visitor{
+  color: white;
+  font-style: strong;
+  font-size: 55px;
+  text-decoration: none;
+  background: #D8B413;
+  margin: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-radius: 250px;
+}
+
+.hospital:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px white;
+  color: white;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.visitor:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px white;
+  color: white;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+table{
+  margin-left: 750px;
+  margin-top: -540px;
+}
+tr{
+  height: 270px;
+}
+
+.containerbuttons{
+  margin-left: 1110px;
+  height: 450px;
+  margin-top: -450px;
+}
+
+.admin,.feedback,.about{
+  color: white;
+  font-style: strong;
+  font-size: 20px;
+  text-decoration: none;
+  background: #D8B413;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 250px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.admin{
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* margin-bottom: 40px; */
+}
+
+.admin:hover,.feedback:hover,.about:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px white;
+  color: white;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

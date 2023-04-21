@@ -1,0 +1,75 @@
+body{
+  background-color: #F4AF2C;
+}
+
+.nav1{
+  font-family: "Brush Script MT", cursive;
+  text-decoration: none;
+  margin-left: 1180px;
+	margin-top: 45px;
+	margin-bottom: -20px;
+  color: brown;
+  width: 170px;
+  height: 40px;
+  padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+  font-size: 18px;
+	border: 1px solid black;
+  border-radius: 30px;
+}
+
+.container{
+  background-color: #FFC043;
+  margin-top: 10px;
+  width: 1200px;
+  height: 38px;
+  padding-left: 20px;
+  padding-top: 23px;
+  padding-bottom: 15px;
+  margin-left: 2%;
+  border-radius: 15px;
+}
+
+.namelbl{
+  background-color: #FFC043;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  width: 300px;
+  height: 25px;
+  font-size: 18px;
+  outline: none;
+}
+.emaillbl{
+  background-color: #FFC043;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  width: 290px;
+  height: 25px;
+  font-size: 18px;
+}
+.pricelbl{
+  background-color: #FFC043;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  height: 25px;
+  font-size: 18px;
+  outline: none;
+}
+
+.submitbutton{
+  border-radius: 10px;
+  font-weight: bold;
+  height: 27px;
+  margin-left: 110px;
+}
+
+.submitbutton:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
